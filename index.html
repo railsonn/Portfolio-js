@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <div id="div-nav">
+    <nav class="navbar navbar-dark bg-dark" id="navbar">
+      <div class="container-fluid d-flex align-items-center gap-2">
+
+        <!-- links / Tags -->
+
+        <!-- menu esquerdo -->
+        <div class="menu-left">
+          <div class="div-title-nav">
+            <h3 id="nav-title">Railson</h3>
+          </div>
+
+          <div class="div-links-nav">
+            <a href="#" class="btn btn-sm btn-outline-light">
+              sobre
+            </a>
+
+            <a href="#" class="btn btn-sm btn-outline-info">
+              Perfil
+            </a>
+          </div>
+        </div>
+
+
+        <!-- menu a direita -->
+        <div class="menu-right ms-auto">
+          <button class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="offcanvas"
+                  data-bs-target="#offcanvasRight"
+                  aria-controls="offcanvasRight">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+
+      </div>
+    </nav>
+
+    <!-- Offcanvas -->
+    <div class="offcanvas offcanvas-end text-bg-dark"
+        tabindex="-1"
+        id="offcanvasRight"
+        aria-labelledby="offcanvasRightLabel">
+
+    <div class="offcanvas-header custom-offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasRightLabel">
+        <i class="bi bi-list"></i> Menu
+      </h5>
+
+      <button type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="offcanvas">
+      </button>
+    </div>
+
+
+    <div class="offcanvas-body custom-offcanvas-body">
+      <ul class="menu-list">
+        <li>
+          <a href="#">
+            <i class="bi bi-telephone"></i>
+            Contatos
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bi bi-info-circle"></i>
+            Sobre
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container">
+    <aside class="content">
+      <h1>Welcome to the Page</h1>
+      <p>This is a sample content area.</p>
+    </aside>
+
+    <article class="content">
+      <img src="" alt="image description">
+    </article>
+  </div>
+  
+  <script src="index.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
