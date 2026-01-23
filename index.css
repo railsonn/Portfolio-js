@@ -77,6 +77,11 @@ body {
   margin: 0 15px 0 15px;
 }
 
+#offcanva-header {
+  background-color: #0A1A2F;
+  color: white;
+}
+
 
 
 /* Containers Styles */
@@ -91,7 +96,7 @@ body {
 #container-primary {
   height: 98vh;
   display: flex;
-  background-image: linear-gradient(45deg, #006603, #000000);
+  background-image: linear-gradient(45deg, #00193a, black);
 }
 
 #aside-sobre {
