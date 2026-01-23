@@ -30,6 +30,7 @@ body {
 
 /* Navbar Styles */
 #navbar {
+  background-color: #030918;
   width: 100%;
   height: 60px;
   padding: 5px 10px 5px 10px;
@@ -51,6 +52,13 @@ body {
 .div-title-nav {
   position: relative;
   left: 40px;
+}
+
+#nav-title {
+  color: white;
+  font-size: 24px;
+  position: relative;
+  top: 5px;
 }
 
 .div-links-nav {
@@ -83,7 +91,7 @@ body {
 #container-primary {
   height: 98vh;
   display: flex;
-  background-image: linear-gradient(90deg, #0d6efd, #6610f2);
+  background-image: linear-gradient(45deg, #006603, #000000);
 }
 
 #aside-sobre {
